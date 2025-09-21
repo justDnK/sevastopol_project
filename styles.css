@@ -1,0 +1,241 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url(./fonts/Raleway-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(./fonts/Montserrat-VariableFont_wght.ttf);
+}
+body {
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+  color: white;
+  position: relative;
+}
+
+header {
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background-color: white;
+  height: 230px;
+}
+header .logo {
+  width: 365px;
+  height: 85px;
+  margin-bottom: 45px;
+  display: flex;
+  margin-top: 75px;
+  margin-right: auto;
+  margin-left: auto;
+}
+header .logo .logo_text {
+  width: 265px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+header .logo .logo_text p {
+  color: black;
+  font-size: 24px;
+  font-family: "Montserrat";
+  display: block;
+  font-weight: 500;
+}
+header .logo .logo_img {
+  width: 85px;
+  height: 85px;
+  background-image: url(./images/logo.jpg);
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.main {
+  width: 100%;
+  height: 500px;
+  background-color: paleturquoise;
+}
+
+nav {
+  width: 400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  height: 30px;
+}
+
+nav > a img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+ul {
+  display: flex;
+  transition: 0.5s;
+  width: 100%;
+  justify-content: space-between;
+}
+ul a {
+  display: block;
+  text-decoration: none;
+  font-family: "Montserrat";
+  position: relative;
+  display: block;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  color: #01b4ae;
+}
+ul a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px; /* отступ снизу (регулируй по вкусу) */
+  width: 0;
+  height: 2px;
+  background-color: #01b4ae; /* цвет линии */
+  transition: width 0.3s ease; /* плавность */
+}
+ul a:hover::after {
+  width: 100%;
+}
+
+label {
+  display: none;
+}
+
+#burger-toggle {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  body ul a {
+    font-size: 12px;
+  }
+}
+@media (max-width: 800px) {
+  label {
+    position: relative;
+    z-index: 1000;
+    display: block;
+    height: 27px;
+    width: 30px;
+  }
+  label::after, label::before, label span {
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background-color: #01b4ae;
+    transition: 0.3s;
+    border-radius: 30px;
+  }
+  label::before {
+    content: "";
+    top: 0;
+  }
+  label::after {
+    content: "";
+    bottom: 0;
+  }
+  label span {
+    top: 11px;
+  }
+  #burger-toggle:checked ~ label::after {
+    transform: rotate(45deg);
+    bottom: 10px;
+  }
+  #burger-toggle:checked ~ label::before {
+    transform: rotate(-45deg);
+    top: 12px;
+  }
+  #burger-toggle:checked ~ label span {
+    transform: rotate(-45deg);
+    top: 12px;
+  }
+  ul {
+    position: fixed;
+    top: 0;
+    right: -100vw; /* уезжает за экран */
+    left: 100vw;
+    width: 100vw; /* занимает всю ширину */
+    height: 100vh; /* и всю высоту */
+    background-color: #747674;
+    padding-top: 100px; /* чтобы ссылки не прилипали к краю */
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    transition: 0.5s;
+    z-index: 998; /* поверх контента, но под хедером */
+  }
+  #burger-toggle:checked ~ ul {
+    left: 0;
+    right: 0;
+  }
+}
+@media (max-width: 800px) {
+  body header {
+    display: flex;
+    flex-direction: unset;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  body header nav {
+    height: 25px;
+    width: 30px;
+    margin: 0;
+    margin-right: 15px;
+  }
+  body header .logo {
+    margin: 0;
+    height: 60px;
+    width: 270px;
+    margin-left: 15px;
+  }
+  body header .logo .logo_text {
+    width: 195px;
+  }
+  body header .logo .logo_text p {
+    font-size: 18px;
+  }
+  body header .logo .logo_img {
+    width: 60px;
+    height: 60px;
+  }
+}
+@media (max-width: 600px) {
+  body header {
+    height: 160px;
+  }
+  body header .logo {
+    margin: 0;
+    height: 45px;
+    width: 185px;
+    margin-left: 15px;
+  }
+  body header .logo .logo_text {
+    width: 130px;
+    margin-right: 10px;
+  }
+  body header .logo .logo_text p {
+    font-size: 12px;
+  }
+  body header .logo .logo_img {
+    width: 45px;
+    height: 45px;
+  }
+}/*# sourceMappingURL=styles.css.map */
