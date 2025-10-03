@@ -461,4 +461,125 @@ body .main a:hover .button p {
   body .main .down_text p {
     font-weight: 800;
   }
+}
+body .colors_blocks {
+  width: 100%;
+  height: 500px;
+  background-color: rgb(110, 22, 22);
+}
+
+body .footer {
+  width: 100%;
+  height: 500px;
+  background-color: #1ac6b1;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+body .footer .block1 {
+  height: 100%;
+}
+body .footer .block1 .logo_footer {
+  width: 365px;
+  height: 85px;
+  display: flex;
+  margin-bottom: 10px;
+}
+body .footer .block1 .logo_footer .logo_text {
+  width: 265px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+body .footer .block1 .logo_footer .logo_text p {
+  color: black;
+  font-size: 24px;
+  font-family: "Montserrat";
+  display: block;
+  font-weight: 500;
+}
+body .footer .block1 .logo_footer .logo_img {
+  width: 85px;
+  height: 85px;
+  background-image: url(./images/logo.jpg);
+  background-size: cover;
+  border-radius: 50%;
+}
+body .footer .block1 .adress {
+  background-color: coral;
+  width: 365px;
+  height: 85px;
+}
+body .footer .block2 {
+  height: 180px;
+  display: flex;
+}
+body .footer .block2 a {
+  text-decoration: none;
+  display: block;
+}
+body .footer .block2 a .button {
+  height: 80px;
+  width: 250px;
+  border: 2px solid black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .footer .block2 a .button p {
+  color: black;
+  font-size: 18px;
+  font-family: "Raleway";
+  font-weight: 500;
+  display: block;
+}
+
+@media (max-width: 850px) {
+  body .footer {
+    flex-direction: column;
+    padding-left: 50px;
+    justify-content: flex-start;
+  }
+  body .footer .block1 {
+    height: 100%;
+    margin-bottom: 50px;
+  }
+  body .footer .block1 .logo_footer {
+    margin-bottom: 50px;
+  }
+  body .footer .block2 {
+    height: 100%;
+  }
+}
+@media (max-width: 600px) {
+  body .footer .block1 {
+    margin-bottom: 60px;
+  }
+  body .footer .block1 .logo_footer {
+    margin: 0;
+    height: 60px;
+    width: 270px;
+    margin-bottom: 60px;
+  }
+  body .footer .block1 .logo_footer .logo_text {
+    width: 195px;
+  }
+  body .footer .block1 .logo_footer .logo_text p {
+    font-size: 18px;
+  }
+  body .footer .block1 .logo_footer .logo_img {
+    width: 60px;
+    height: 60px;
+  }
+  body .footer .block1 .adress {
+    width: 270px;
+  }
+  body .footer .block2 a .button {
+    height: 50px;
+    width: 270px;
+  }
 }/*# sourceMappingURL=styles.css.map */
