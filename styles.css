@@ -13,6 +13,10 @@
   font-family: "Montserrat";
   src: url(./fonts/Montserrat-VariableFont_wght.ttf);
 }
+@font-face {
+  font-family: "PlayFair";
+  src: url(./fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
 body {
   font-family: sans-serif;
   width: 100%;
@@ -581,5 +585,358 @@ body .footer .block2 a .button p {
   body .footer .block2 a .button {
     height: 50px;
     width: 270px;
+  }
+}
+body .main_services {
+  width: 100%;
+  height: 100%;
+}
+body .main_services .img_kompas {
+  width: 100%;
+  height: 700px;
+  background-image: url(./images/kompas.jpg);
+  background-size: cover;
+}
+body .main_services .blue_line {
+  background-color: #4D7ABD;
+  padding-top: 8px;
+  width: 100%;
+}
+body .main_services .bold_text {
+  width: 55%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+body .main_services .bold_text p {
+  font-family: "Raleway";
+  font-size: 32px; /* примерный размер */
+  font-weight: 800; /* жирный */
+  line-height: 1.2; /* межстрочный интервал */
+  color: #2b2b2b; /* тёмно-серый, почти чёрный */
+  font-family: sans-serif;
+  text-align: center;
+}
+body .main_services .block_iconText {
+  margin: 0 auto 80px auto;
+  display: flex;
+  justify-content: space-around;
+  width: 745px;
+}
+body .main_services .block_iconText .text2_services {
+  height: 100%;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+body .main_services .block_iconText .text2_services p {
+  color: black;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+body .main_services .block_iconText .text2_services .main_text {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+body .main_services .block_iconText .text2_services .last_text {
+  margin-bottom: 0;
+}
+body .main_services .block_iconText .icon {
+  width: 210px;
+  height: 200px;
+  background-color: burlywood;
+  background-image: url(/images/icon_submarine_copy.png);
+  background-size: cover;
+}
+body .main_services .block_info {
+  width: 745px;
+  height: 100%;
+  margin: 0 auto 80px auto;
+}
+body .main_services .block_info h1 {
+  color: #4D7ABD;
+  font-family: "Raleway";
+  margin-bottom: 32px;
+  font-weight: 800;
+}
+body .main_services .block_info p {
+  color: black;
+  font-size: 18px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  line-height: 30px;
+}
+body .main_services .drone_img {
+  width: 735px;
+  height: 500px;
+  background-image: url(./images/drone.jpg);
+  background-size: cover;
+  margin: 0 auto 80px auto;
+}
+body .main_services .img_hashtag {
+  width: 587px;
+  height: 105px;
+  background-image: url(./images/future_engineer.png);
+  background-size: cover;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+}
+body .main_services .block_text_hash {
+  width: 745px;
+  margin: 0 auto 0 auto;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-bottom: 80px;
+}
+body .main_services .block_text_hash p {
+  color: black;
+  font-size: 18px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  line-height: 30px;
+}
+body .main_services .block_text_hash .text2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+body .main_services .block_text_hash .text_list {
+  line-height: 40px;
+}
+body .main_services .block_text_hash .text_list_600 {
+  display: none;
+}
+body .main_services .drone2_img {
+  width: 735px;
+  height: 500px;
+  background-image: url(./images/drone2.jpg);
+  background-size: cover;
+  margin: 0 auto 80px auto;
+}
+body .main_services .blue_block {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #4D7ABD;
+  padding-top: 30px;
+  padding-bottom: 80px;
+}
+body .main_services .blue_block h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+body .main_services .blue_block .text1 {
+  height: 100%;
+  width: 730px;
+  margin: 0 auto 0 auto;
+  margin-bottom: 30px;
+}
+body .main_services .blue_block .text1 p {
+  color: white;
+  font-size: 18px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  line-height: 30px;
+}
+body .main_services .blue_block .text2 {
+  height: 100%;
+  width: 730px;
+  margin: 0 auto 80px auto;
+}
+body .main_services .blue_block .text2 p {
+  color: white;
+  font-size: 18px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  line-height: 30px;
+}
+body .main_services .blue_block .quote {
+  width: 730px;
+  margin: 0 auto 0 auto;
+}
+body .main_services .blue_block .quote p {
+  font-family: "PlayFair";
+  font-size: 32px;
+}
+body .main_services .blue_block .quote .text_quote1 {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 800px) {
+  body .main_services .img_kompas {
+    width: 100%;
+    height: 400px;
+  }
+  body .main_services .block_iconText {
+    justify-content: space-between;
+    width: 600px;
+  }
+  body .main_services .block_iconText .text2_services {
+    width: 350px;
+  }
+  body .main_services .block_info {
+    width: 600px;
+  }
+  body .main_services .drone_img {
+    width: 600px;
+    height: 350px;
+  }
+  body .main_services .block_text_hash {
+    width: 600px;
+  }
+  body .main_services .drone2_img {
+    width: 600px;
+    height: 350px;
+  }
+  body .main_services .blue_block .text1 {
+    width: 600px;
+  }
+  body .main_services .blue_block .text2 {
+    width: 600px;
+  }
+  body .main_services .blue_block .quote {
+    width: 600px;
+  }
+}
+@media (max-width: 600px) {
+  body .main_services .img_kompas {
+    height: 300px;
+  }
+  body .main_services .bold_text {
+    width: 400px;
+    margin: 60px auto 60px auto;
+  }
+  body .main_services .bold_text p {
+    font-size: 24px;
+  }
+  body .main_services .block_iconText {
+    width: 400px;
+  }
+  body .main_services .block_iconText .text2_services {
+    width: 260px;
+  }
+  body .main_services .block_iconText .text2_services p {
+    font-size: 14px;
+  }
+  body .main_services .block_iconText .text2_services .main_text {
+    font-size: 16px;
+  }
+  body .main_services .block_iconText .icon {
+    width: 130px;
+    height: 120px;
+  }
+  body .main_services .block_info {
+    width: 400px;
+    margin-bottom: 60px;
+  }
+  body .main_services .block_info h1 {
+    font-size: 24px;
+  }
+  body .main_services .block_info p {
+    font-size: 14px;
+  }
+  body .main_services .drone_img {
+    width: 400px;
+    height: 250px;
+    margin-bottom: 60px;
+  }
+  body .main_services .img_hashtag {
+    width: 400px;
+    height: 70px;
+  }
+  body .main_services .block_text_hash {
+    width: 400px;
+    margin-bottom: 60px;
+  }
+  body .main_services .block_text_hash p {
+    font-size: 14px;
+  }
+  body .main_services .block_text_hash .text_list {
+    display: none;
+  }
+  body .main_services .block_text_hash .text_list_600 {
+    display: flex;
+    line-height: 35px;
+  }
+  body .main_services .drone2_img {
+    width: 400px;
+    height: 250px;
+    margin-bottom: 60px;
+  }
+  body .main_services .blue_block h1 {
+    font-size: 24px;
+  }
+  body .main_services .blue_block .text1 {
+    width: 400px;
+  }
+  body .main_services .blue_block .text1 p {
+    font-size: 14px;
+  }
+  body .main_services .blue_block .text2 {
+    width: 400px;
+    margin-bottom: 60px;
+  }
+  body .main_services .blue_block .text2 p {
+    font-size: 14px;
+  }
+  body .main_services .blue_block .quote {
+    width: 400px;
+  }
+  body .main_services .blue_block .quote p {
+    font-size: 24px;
+  }
+}
+@media (max-width: 500px) {
+  body .main_services .img_kompas {
+    height: 220px;
+  }
+  body .main_services .bold_text p {
+    font-size: 20px;
+  }
+  body .main_services .block_iconText {
+    width: 350px;
+  }
+  body .main_services .block_iconText .text2_services {
+    width: 230px;
+  }
+  body .main_services .block_iconText .text2_services p {
+    font-size: 12px;
+  }
+  body .main_services .block_iconText .icon {
+    width: 110px;
+    height: 100px;
+    margin-top: 20px;
+  }
+  body .main_services .block_info {
+    width: 350px;
+  }
+  body .main_services .drone_img {
+    width: 350px;
+    height: 220px;
+  }
+  body .main_services .img_hashtag {
+    width: 350px;
+    height: 62px;
+  }
+  body .main_services .block_text_hash {
+    width: 350px;
+  }
+  body .main_services .drone2_img {
+    width: 350px;
+    height: 220px;
+  }
+  body .main_services .blue_block h1 {
+    font-size: 22px;
+  }
+  body .main_services .blue_block .text1 {
+    width: 350px;
+  }
+  body .main_services .blue_block .text2 {
+    width: 350px;
+  }
+  body .main_services .blue_block .quote {
+    width: 350px;
   }
 }/*# sourceMappingURL=styles.css.map */
