@@ -939,4 +939,812 @@ body .main_services .blue_block .quote .text_quote1 {
   body .main_services .blue_block .quote {
     width: 350px;
   }
+}
+body .main_block_programs {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-bottom: 80px;
+}
+body .main_block_programs .line {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  margin-bottom: 70px;
+}
+body .main_block_programs .line2 {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  margin-bottom: 80px;
+}
+body .main_block_programs .line3 {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  margin-bottom: 80px;
+}
+body .main_block_programs .img1 {
+  width: 100%;
+  height: 700px;
+  background-image: url(./images/programs_img1.png);
+  background-size: cover;
+  margin-bottom: 80px;
+}
+body .main_block_programs .about_block {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+body .main_block_programs .about_block .text {
+  width: 500px;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+body .main_block_programs .about_block .text h1 {
+  color: black;
+  line-height: 100px;
+  font-family: "Raleway";
+}
+body .main_block_programs .about_block .text .par1 {
+  width: 400px;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-bottom: 20px;
+}
+body .main_block_programs .about_block .text .par1 p {
+  color: black;
+  font-size: 18px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  line-height: 30px;
+}
+body .main_block_programs .about_block .text .par2 {
+  width: 400px;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-bottom: 20px;
+}
+body .main_block_programs .about_block .text .par2 p {
+  color: black;
+  font-size: 18px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  line-height: 30px;
+}
+body .main_block_programs .about_block .text .par3 {
+  width: 400px;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-bottom: 20px;
+}
+body .main_block_programs .about_block .text .par3 p {
+  color: black;
+  font-size: 18px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  line-height: 30px;
+}
+body .main_block_programs .about_block .text .par4 {
+  width: 400px;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-bottom: 20px;
+}
+body .main_block_programs .about_block .text .par4 p {
+  color: black;
+  font-size: 18px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  line-height: 30px;
+}
+body .main_block_programs .about_block .img {
+  width: 730px;
+  height: 780px;
+  background-image: url(./images/programs_img2.png);
+  background-size: cover;
+}
+body .main_block_programs .for {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px;
+}
+body .main_block_programs .for .text1 {
+  width: 90%;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-bottom: 30px;
+}
+body .main_block_programs .for .text1 h1 {
+  color: black;
+  font-family: "Raleway";
+}
+body .main_block_programs .for .text2 {
+  width: 90%;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  margin-bottom: 20px;
+}
+body .main_block_programs .for .text2 .group1 {
+  width: 40%;
+  height: 350px;
+}
+body .main_block_programs .for .text2 .group1 .par1 {
+  width: 400px;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-bottom: 20px;
+}
+body .main_block_programs .for .text2 .group1 .par1 p {
+  color: black;
+  font-size: 18px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  line-height: 30px;
+}
+body .main_block_programs .for .text2 .group1 .par2 {
+  width: 400px;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-bottom: 20px;
+}
+body .main_block_programs .for .text2 .group1 .par2 p {
+  color: black;
+  font-size: 18px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  line-height: 30px;
+  font-weight: 700;
+}
+body .main_block_programs .for .text2 .group1 .par3 {
+  width: 400px;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-bottom: 20px;
+}
+body .main_block_programs .for .text2 .group1 .par3 p {
+  color: black;
+  font-size: 18px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  line-height: 30px;
+}
+body .main_block_programs .for .text2 .group2 {
+  width: 50%;
+  height: 350px;
+}
+body .main_block_programs .for .text2 .group2 .par1 {
+  width: 400px;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-bottom: 20px;
+}
+body .main_block_programs .for .text2 .group2 .par1 p {
+  color: black;
+  font-size: 18px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  line-height: 30px;
+}
+body .main_block_programs .for .text2 .group2 .par2 {
+  width: 400px;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-bottom: 20px;
+}
+body .main_block_programs .for .text2 .group2 .par2 p {
+  color: black;
+  font-size: 18px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  line-height: 30px;
+}
+body .main_block_programs .for .images {
+  width: 90%;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+}
+body .main_block_programs .for .images .img1_for {
+  width: 350px;
+  height: 350px;
+  background-image: url(./images/programs_img3.png);
+  background-size: cover;
+  margin-right: 20px;
+}
+body .main_block_programs .for .images .img2 {
+  width: 800px;
+  height: 350px;
+  background-image: url(./images/programs_img4.png);
+  background-size: cover;
+}
+body .main_block_programs .goal {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: space-around;
+}
+body .main_block_programs .goal .text {
+  width: 500px;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+body .main_block_programs .goal .text h1 {
+  color: black;
+  line-height: 80px;
+  font-family: "Raleway";
+}
+body .main_block_programs .goal .text .par1 {
+  width: 450px;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-bottom: 20px;
+}
+body .main_block_programs .goal .text .par1 p {
+  color: black;
+  font-size: 18px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  line-height: 30px;
+}
+body .main_block_programs .goal .text .par2 {
+  width: 450px;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-bottom: 20px;
+}
+body .main_block_programs .goal .text .par2 p {
+  color: black;
+  font-size: 18px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  line-height: 30px;
+}
+body .main_block_programs .goal .text .par3 {
+  width: 450px;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-bottom: 20px;
+}
+body .main_block_programs .goal .text .par3 p {
+  color: black;
+  font-size: 18px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  line-height: 30px;
+}
+body .main_block_programs .goal .text .par4 {
+  width: 450px;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-bottom: 20px;
+}
+body .main_block_programs .goal .text .par4 p {
+  color: black;
+  font-size: 18px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  line-height: 30px;
+}
+body .main_block_programs .goal .img {
+  width: 620px;
+  height: 640px;
+  background-image: url(./images/programs_img5.png);
+  background-size: cover;
+}
+body .main_block_programs .partners {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .main_block_programs .partners .text1 {
+  width: 90%;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-bottom: 80px;
+}
+body .main_block_programs .partners .text1 h1 {
+  color: black;
+  font-family: "Raleway";
+}
+body .main_block_programs .partners .blocks {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+body .main_block_programs .partners .blocks .partner1 {
+  width: 400px;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+body .main_block_programs .partners .blocks .partner1 .img {
+  width: 310px;
+  height: 270px;
+  background-image: url(./images/programs_img6.png);
+  background-size: cover;
+  margin-bottom: 30px;
+}
+body .main_block_programs .partners .blocks .partner1 p {
+  color: black;
+  font-size: 18px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  line-height: 30px;
+}
+body .main_block_programs .partners .blocks .partner2 {
+  width: 400px;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+body .main_block_programs .partners .blocks .partner2 .img {
+  width: 390px;
+  height: 270px;
+  background-image: url(./images/programs_img7.png);
+  background-size: cover;
+  margin-bottom: 30px;
+}
+body .main_block_programs .partners .blocks .partner2 p {
+  color: black;
+  font-size: 18px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  line-height: 30px;
+}
+body .main_block_programs .partners .blocks .partner3 {
+  width: 400px;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+body .main_block_programs .partners .blocks .partner3 .img {
+  width: 270px;
+  height: 270px;
+  margin-bottom: 30px;
+  background-image: url(./images/programs_img8.png);
+  background-size: cover;
+}
+body .main_block_programs .partners .blocks .partner3 p {
+  color: black;
+  font-size: 18px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  line-height: 30px;
+}
+
+@media (max-width: 1100px) {
+  body .main_block_programs .img1 {
+    height: 500px;
+  }
+  body .main_block_programs .about_block .text {
+    width: 350px;
+  }
+  body .main_block_programs .about_block .text .par {
+    width: 350px;
+    margin-bottom: 12px;
+  }
+  body .main_block_programs .about_block .text .par p {
+    font-size: 14px;
+  }
+  body .main_block_programs .about_block .img {
+    width: 530px;
+    height: 580px;
+  }
+  body .main_block_programs .for .text1 {
+    width: 90%;
+  }
+  body .main_block_programs .for .text2 {
+    width: 90%;
+  }
+  body .main_block_programs .for .text2 .group1 {
+    width: 50%;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  body .main_block_programs .for .text2 .group1 .par p {
+    font-size: 14px;
+  }
+  body .main_block_programs .for .text2 .group1 .par3 {
+    margin-bottom: 0;
+  }
+  body .main_block_programs .for .text2 .group2 {
+    width: 40%;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  body .main_block_programs .for .text2 .group2 .par p {
+    font-size: 14px;
+  }
+  body .main_block_programs .for .text2 .group2 .par2 {
+    margin-bottom: 0;
+  }
+  body .main_block_programs .for .images {
+    width: 90%;
+  }
+  body .main_block_programs .goal {
+    width: 100%;
+    margin: 0 auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+  }
+  body .main_block_programs .goal .text {
+    width: 300px;
+  }
+  body .main_block_programs .goal .text .par {
+    width: 300px;
+  }
+  body .main_block_programs .goal .text .par p {
+    font-size: 14px;
+  }
+  body .main_block_programs .goal .text .par4 {
+    margin-bottom: 0;
+  }
+  body .main_block_programs .goal .img {
+    width: 530px;
+    height: 580px;
+  }
+  body .main_block_programs .partners .text1 {
+    text-align: center;
+    width: 90%;
+  }
+  body .main_block_programs .partners .blocks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .main_block_programs .partners .blocks .partner1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  body .main_block_programs .partners .blocks .partner1 p {
+    text-align: center;
+  }
+  body .main_block_programs .partners .blocks .partner2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  body .main_block_programs .partners .blocks .partner2 p {
+    text-align: center;
+  }
+  body .main_block_programs .partners .blocks .partner3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .main_block_programs .partners .blocks .partner3 p {
+    text-align: center;
+  }
+  body .main_block_programs .line2 {
+    display: block;
+  }
+}
+@media (max-width: 1050px) {
+  body .main_block_programs .for .text1 {
+    width: 95%;
+  }
+  body .main_block_programs .for .text2 {
+    width: 95%;
+  }
+  body .main_block_programs .for .images {
+    width: 95%;
+  }
+}
+@media (max-width: 900px) {
+  body .main_block_programs .about_block {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+  }
+  body .main_block_programs .about_block .text {
+    width: 600px;
+    margin-bottom: 30px;
+  }
+  body .main_block_programs .about_block .text .par {
+    width: 550px;
+  }
+  body .main_block_programs .about_block .text .par p {
+    font-size: 18px;
+  }
+  body .main_block_programs .about_block .img {
+    width: 600px;
+  }
+  body .main_block_programs .for {
+    height: -moz-fit-content;
+    height: fit-content;
+    margin-bottom: 80px;
+  }
+  body .main_block_programs .for .text1 {
+    width: 600px;
+  }
+  body .main_block_programs .for .text2 {
+    width: 600px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+  }
+  body .main_block_programs .for .text2 .group1 {
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 600px;
+    margin-bottom: 50px;
+  }
+  body .main_block_programs .for .text2 .group1 .par {
+    width: 550px;
+  }
+  body .main_block_programs .for .text2 .group1 .par p {
+    font-size: 18px;
+  }
+  body .main_block_programs .for .text2 .group1 .par3 {
+    margin-bottom: 50px;
+  }
+  body .main_block_programs .for .text2 .group1 .img_group {
+    width: 600px;
+    height: 550px;
+    background-image: url(./images/programs_img3.png);
+    background-size: cover;
+    margin-right: 20px;
+  }
+  body .main_block_programs .for .text2 .group2 {
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 600px;
+  }
+  body .main_block_programs .for .text2 .group2 .par {
+    width: 550px;
+  }
+  body .main_block_programs .for .text2 .group2 .par p {
+    font-size: 18px;
+  }
+  body .main_block_programs .for .text2 .group2 .par2 {
+    margin-bottom: 50px;
+  }
+  body .main_block_programs .for .text2 .group2 .img_group {
+    width: 600px;
+    height: 300px;
+    background-image: url(./images/programs_img4.png);
+    background-size: cover;
+  }
+  body .main_block_programs .for .images {
+    display: none;
+  }
+  body .main_block_programs .goal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .main_block_programs .goal .text {
+    width: 600px;
+  }
+  body .main_block_programs .goal .text .par {
+    width: 600px;
+  }
+  body .main_block_programs .goal .text .par p {
+    font-size: 18px;
+  }
+  body .main_block_programs .goal .text .par4 {
+    margin-bottom: 50px;
+  }
+  body .main_block_programs .goal .img {
+    width: 600px;
+  }
+  body .main_block_programs .line {
+    margin-bottom: 80px;
+  }
+  body .main_block_programs .line2 {
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 800px) {
+  body .main_block_programs .img1 {
+    height: 400px;
+  }
+}
+@media (max-width: 600px) {
+  body .main_block_programs .img1 {
+    height: 300px;
+  }
+  body .main_block_programs .about_block .text {
+    width: 500px;
+  }
+  body .main_block_programs .about_block .text .par {
+    width: 450px;
+  }
+  body .main_block_programs .about_block .img {
+    width: 500px;
+  }
+  body .main_block_programs .for .text1 {
+    width: 500px;
+  }
+  body .main_block_programs .for .text2 {
+    width: 500px;
+    margin-bottom: 0px;
+  }
+  body .main_block_programs .for .text2 .group1 {
+    width: 500px;
+    margin-bottom: 30px;
+  }
+  body .main_block_programs .for .text2 .group1 .par {
+    width: 450px;
+    margin-bottom: 12px;
+  }
+  body .main_block_programs .for .text2 .group1 .par3 {
+    margin-bottom: 30px;
+  }
+  body .main_block_programs .for .text2 .group1 .img_group {
+    width: 500px;
+    height: 500px;
+  }
+  body .main_block_programs .for .text2 .group2 {
+    width: 500px;
+  }
+  body .main_block_programs .for .text2 .group2 .par {
+    width: 450px;
+    margin-bottom: 12px;
+  }
+  body .main_block_programs .for .text2 .group2 .par2 {
+    margin-bottom: 30px;
+  }
+  body .main_block_programs .for .text2 .group2 .img_group {
+    width: 500px;
+    height: 200px;
+  }
+  body .main_block_programs .goal .text {
+    width: 500px;
+  }
+  body .main_block_programs .goal .text .par {
+    width: 450px;
+    margin-bottom: 12px;
+  }
+  body .main_block_programs .goal .text .par4 {
+    margin-bottom: 30px;
+  }
+  body .main_block_programs .goal .img {
+    width: 500px;
+    height: 530px;
+  }
+}
+@media (max-width: 500px) {
+  body .main_block_programs .img1 {
+    height: 350px;
+    background-image: url(./images/programs_img9.png);
+    margin-bottom: 50px;
+  }
+  body .main_block_programs .about_block .text {
+    width: 400px;
+  }
+  body .main_block_programs .about_block .text h1 {
+    line-height: 75px;
+    font-size: 28px;
+  }
+  body .main_block_programs .about_block .text .par {
+    width: 350px;
+  }
+  body .main_block_programs .about_block .text .par p {
+    font-size: 14px;
+  }
+  body .main_block_programs .about_block .text .par4 {
+    margin-bottom: 0px;
+  }
+  body .main_block_programs .about_block .img {
+    width: 400px;
+    height: 450px;
+  }
+  body .main_block_programs .for .text1 {
+    width: 400px;
+    margin-bottom: 0;
+  }
+  body .main_block_programs .for .text1 h1 {
+    line-height: 75px;
+    font-size: 28px;
+  }
+  body .main_block_programs .for .text2 {
+    width: 400px;
+  }
+  body .main_block_programs .for .text2 .group1 {
+    width: 400px;
+  }
+  body .main_block_programs .for .text2 .group1 .par {
+    width: 350px;
+  }
+  body .main_block_programs .for .text2 .group1 .par p {
+    font-size: 14px;
+  }
+  body .main_block_programs .for .text2 .group1 .img_group {
+    width: 400px;
+    height: 400px;
+  }
+  body .main_block_programs .for .text2 .group2 {
+    width: 400px;
+  }
+  body .main_block_programs .for .text2 .group2 .par {
+    width: 350px;
+  }
+  body .main_block_programs .for .text2 .group2 .par p {
+    font-size: 14px;
+  }
+  body .main_block_programs .for .text2 .group2 .img_group {
+    width: 400px;
+    height: 200px;
+  }
+  body .main_block_programs .goal .text {
+    width: 400px;
+  }
+  body .main_block_programs .goal .text h1 {
+    line-height: 75px;
+    font-size: 28px;
+  }
+  body .main_block_programs .goal .text .par {
+    width: 350px;
+    margin-bottom: 12px;
+  }
+  body .main_block_programs .goal .text .par p {
+    font-size: 14px;
+  }
+  body .main_block_programs .goal .text .par4 {
+    margin-bottom: 30px;
+  }
+  body .main_block_programs .goal .img {
+    width: 400px;
+    height: 430px;
+  }
+  body .main_block_programs .partners {
+    margin-bottom: 50px;
+  }
+  body .main_block_programs .partners .text1 {
+    margin-bottom: 60px;
+  }
+  body .main_block_programs .partners .text1 h1 {
+    line-height: 30px;
+    font-size: 28px;
+  }
+  body .main_block_programs .partners .blocks .partner1 {
+    margin-bottom: 30px;
+  }
+  body .main_block_programs .partners .blocks .partner1 .img {
+    width: 290px;
+    height: 250px;
+    margin-bottom: 30px;
+  }
+  body .main_block_programs .partners .blocks .partner1 p {
+    font-size: 14px;
+    width: 300px;
+  }
+  body .main_block_programs .partners .blocks .partner2 {
+    margin-bottom: 60px;
+  }
+  body .main_block_programs .partners .blocks .partner2 .img {
+    width: 370px;
+    height: 250px;
+    margin-bottom: 20px;
+  }
+  body .main_block_programs .partners .blocks .partner2 p {
+    font-size: 14px;
+    width: 300px;
+  }
+  body .main_block_programs .partners .blocks .partner3 p {
+    font-size: 14px;
+    width: 300px;
+  }
+  body .main_block_programs .line {
+    margin-bottom: 50px;
+  }
 }/*# sourceMappingURL=styles.css.map */
