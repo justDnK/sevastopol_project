@@ -673,6 +673,9 @@ body .services a:hover .button p {
   }
 }
 @media (max-width: 750px) {
+  body .services h1 {
+    font-size: 28px;
+  }
   body .services .blocks {
     width: 500px;
   }
