@@ -6,10 +6,6 @@
 }
 
 @font-face {
-  font-family: "Montserrat";
-  src: url(./fonts/Montserrat-VariableFont_wght.ttf);
-}
-@font-face {
   font-family: "PlayFair";
   src: url(./fonts/PlayfairDisplay-VariableFont_wght.ttf);
 }
@@ -1170,7 +1166,7 @@ body .main_services .blue_block .quote .text_quote1 {
   }
   body .main_services .block_iconText .icon {
     width: 110px;
-    height: 100px;
+    height: 110px;
     margin-top: 20px;
   }
   body .main_services .block_info {
