@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: "Raleway";
-  src: url(./fonts/Raleway-VariableFont_wght.ttf);
+  src: url(../Sevastopol_project/fonts/Raleway-VariableFont_wght.ttf);
 }
 @font-face {
   font-family: "Montserrat";
@@ -912,8 +912,7 @@ body .main_services .block_iconText .text2_services .last_text {
 body .main_services .block_iconText .icon {
   width: 210px;
   height: 200px;
-  background-color: burlywood;
-  background-image: url(/images/icon_submarine_copy.png);
+  background-image: url(/images/about_img2.png);
   background-size: cover;
 }
 body .main_services .block_info {
@@ -1067,6 +1066,9 @@ body .main_services .blue_block .quote .text_quote1 {
   }
 }
 @media (max-width: 600px) {
+  body .main_services .blue_line {
+    padding-top: 4px;
+  }
   body .main_services .img_kompas {
     height: 300px;
   }
@@ -1091,7 +1093,7 @@ body .main_services .blue_block .quote .text_quote1 {
   }
   body .main_services .block_iconText .icon {
     width: 130px;
-    height: 120px;
+    height: 130px;
   }
   body .main_services .block_info {
     width: 400px;
