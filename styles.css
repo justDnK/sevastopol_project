@@ -908,7 +908,7 @@ body .main_services .block_iconText .text2_services .last_text {
 body .main_services .block_iconText .icon {
   width: 210px;
   height: 200px;
-  background-image: url(/images/about_img2.png);
+  background-image: url(./images/about_img2.png);
   background-size: cover;
 }
 body .main_services .block_info {
