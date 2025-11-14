@@ -63,12 +63,11 @@ header .logo .logo_img {
 }
 
 nav {
-  width: 400px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 45%;
+  width: 40%;
   height: 30px;
 }
 
@@ -749,18 +748,8 @@ body .footer .block1 .adress {
   width: 365px;
   height: -moz-fit-content;
   height: fit-content;
-  margin-bottom: 40px;
 }
 body .footer .block1 .adress p {
-  color: black;
-  font-size: 18px;
-}
-body .footer .block1 .adress2 {
-  width: 365px;
-  height: -moz-fit-content;
-  height: fit-content;
-}
-body .footer .block1 .adress2 p {
   color: black;
   font-size: 18px;
 }
@@ -2598,18 +2587,6 @@ body .contacts_block .adress1 {
   margin: 20px auto 0 auto;
 }
 body .contacts_block .adress1 p {
-  font-size: 18px;
-  text-align: center;
-  font-family: "Montserrat";
-  font-weight: 600;
-}
-body .contacts_block .adress2 {
-  width: 800px;
-  height: -moz-fit-content;
-  height: fit-content;
-  margin: 20px auto 0 auto;
-}
-body .contacts_block .adress2 p {
   font-size: 18px;
   text-align: center;
   font-family: "Montserrat";
